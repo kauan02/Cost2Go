@@ -1,104 +1,104 @@
-# 🌍 Cost of Living Scraper (com Selenium + Firefox)
+# 🌍 Cost of Living Scraper (with Selenium + Firefox)
 
-Este projeto realiza web scraping automatizado no site Numbeo para extrair os custos médios de vida em qualquer cidade do mundo, incluindo preços de aluguel, restaurantes, internet, academia, transporte e muito mais.
+This project performs automated web scraping on the Numbeo website to extract average cost-of-living data in any city worldwide, including rent prices, restaurants, internet, gym, transportation, and more.
 
-A aplicação foi desenvolvida em Python utilizando o Selenium com o navegador Firefox (via GeckoDriver).
-
----
-
-## 🚀 Funcionalidades
-
-- Consulta automatizada de custo de vida por cidade
-- Extração de dados em tempo real do site Numbeo
-- Compatível com modo headless (sem abrir o navegador)
-- Preparado para integração futura com banco de dados ou API
+The application is built in Python using Selenium with the Firefox browser (via GeckoDriver).
 
 ---
 
-## 🧱 Estrutura do Projeto
+## 🚀 Features
+
+- Automated cost of living search by city
+- Real-time data extraction from Numbeo
+- Headless mode compatible (runs without opening browser window)
+- Prepared for future integration with database or API
+
+---
+
+## 🧱 Project Structure
 
 cost_of_living_scraper/
-├── scraper.py         # Código principal com Selenium + Firefox
-├── requirements.txt   # Dependências do projeto
-└── README.md          # Este documento
+├── scraper.py         # Main script using Selenium + Firefox  
+├── requirements.txt   # Project dependencies  
+└── README.md          # This documentation  
 
 ---
 
-## 📦 Requisitos
+## 📦 Requirements
 
 - Python 3.8+
-- GeckoDriver instalado (https://github.com/mozilla/geckodriver/releases)
-- Navegador Firefox instalado
+- GeckoDriver installed (https://github.com/mozilla/geckodriver/releases)
+- Firefox browser installed
 
 ---
 
-## 🔧 Instalação
+## 🔧 Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
-   git clone https://github.com/kauan02/Cost2Go.git
+   git clone https://github.com/yourusername/cost-of-living-scraper.git  
    cd cost-of-living-scraper
 
-2. Crie um ambiente virtual (opcional, mas recomendado):
+2. Create a virtual environment (optional but recommended):
 
-   python -m venv venv
-   source venv/bin/activate   (Linux/macOS)
+   python -m venv venv  
+   source venv/bin/activate   (Linux/macOS)  
    venv\Scripts\activate      (Windows)
 
-3. Instale as dependências:
+3. Install the dependencies:
 
    pip install -r requirements.txt
 
-4. Ajuste o caminho do GeckoDriver:
+4. Set the path to GeckoDriver:
 
-   No arquivo scraper.py, altere a variável GECKODRIVER_PATH com o caminho correto do seu geckodriver.
+   In the `scraper.py` file, update the `GECKODRIVER_PATH` variable with your actual path.
 
 ---
 
-## 🖥️ Como usar
+## 🖥️ How to Use
 
-Execute o script passando o nome da cidade que deseja consultar:
+Run the script and enter the name of the city you want to check:
 
    python scraper.py
 
-Depois de alguns segundos, ele exibirá os custos médios da cidade.
+After a few seconds, it will display the average cost-of-living items for the city.
 
 ---
 
-## ✅ Exemplo de saída
+## ✅ Example Output
 
-Custo de vida em Madrid:
-Apartment (1 bedroom) in City Centre: € 1,100.00
-Meal, Inexpensive Restaurant: € 13.00
-Internet (60 Mbps or more): € 30.00
+Cost of living in Madrid:  
+Apartment (1 bedroom) in City Centre: € 1,100.00  
+Meal, Inexpensive Restaurant: € 13.00  
+Internet (60 Mbps or more): € 30.00  
 ...
 
 ---
 
-## 🛠️ Para futuras versões
+## 🛠️ Future Ideas
 
-- Salvamento em banco PostgreSQL
-- Previsão de aumento de preços
-- Comparação entre cidades
-- API REST para integração com frontend
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Abra um issue ou envie um pull request com melhorias, sugestões ou correções.
+- Save results to PostgreSQL database  
+- Price forecast for future months  
+- City-to-city comparison  
+- REST API for integration with frontend or dashboard  
 
 ---
 
-## 📄 Licença
+## 🤝 Contributing
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Contributions are welcome! Feel free to open an issue or submit a pull request with improvements, suggestions, or fixes.
 
 ---
 
-## 👤 Autor
+## 📄 License
 
-Desenvolvido por Kauan Barbosa Rezende  
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+## 👤 Author
+
+Developed by **Kauan Barbosa Rezende**  
 📧 kauanbrezende82@gmail.com  
 🔗 https://www.linkedin.com/in/kauan-barbosa-5b8133268/  
 🔗 https://github.com/kauan02
